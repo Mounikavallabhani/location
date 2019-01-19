@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ArkaMilkProject</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Store</string>
+
+
+
+    <string name="title_delivary">Delivery</string>
+    <string name="title_me">Me</string>
+    <string name="title_plans">Plans</string>
+    <string name="Rs">\u20B9</string>
+    <string-array name="SelectArea">
+        <item>-- Select Area--</item>
+        <item> Gachibowli </item>
+        <item> Hi-Tech City </item>
+        <item> Hafeezpet </item>
+        <item> Kondapur </item>
+        <item> Madhapur </item>
+    </string-array>
+
+
+    <string name="text">heritage milk has a nice distinctive taste slightly salty.some say but also smooth,refreshing,and fulfilling.people are surprices when they first drink
+    heritage milk has a nice distinctive taste slightly salty.some say but also smooth,refreshing,and fulfilling.people are surprices when they first drink</string>
+
+
+</resources>

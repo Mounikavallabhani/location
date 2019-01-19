@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.admin.arkamilkproject">
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.project.admin.arkamilkproject.app.DashBoard"
+            android:label="Milk" />
+        <activity android:name="com.project.admin.arkamilkproject.app.ProductActivity">
+
+        </activity>
+        <activity android:name="com.project.admin.arkamilkproject.app.SplashActivity">
+
+        </activity>
+        <activity android:name="com.project.admin.arkamilkproject.app.Area">
+
+        </activity>
+        <activity android:name="com.project.admin.arkamilkproject.app.Registration" />
+        <activity android:name="com.project.admin.arkamilkproject.app.Login" />
+        <activity android:name="com.project.admin.arkamilkproject.app.DeliveryOnce" />
+        <activity android:name="com.project.admin.arkamilkproject.app.Subscription" />
+        <activity android:name="com.project.admin.arkamilkproject.app.ProductDescriptionActivity" />
+        <activity android:name="com.project.admin.arkamilkproject.app.Brands" />
+        <activity android:name="com.project.admin.arkamilkproject.app.CheckOut" />
+        <activity android:name="com.project.admin.arkamilkproject.app.OrderHestory" >
+
+        </activity>
+        <activity android:name="com.project.admin.arkamilkproject.app.OrderHistroyViewDetails"></activity>
+        <activity android:name="com.project.admin.arkamilkproject.app.CustomerActivity"></activity>
+        <activity android:name="com.project.admin.arkamilkproject.app.Settings"></activity>
+        <activity android:name="com.project.admin.arkamilkproject.app.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyALCtreGYBXvQCp0WmXIB1c3ZFsvEiEGPI"/>
+
+    </application>
+
+
+    <!--<meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyDfQ_8rQahyPHLxrGqONRdtk4D6RRQNGE4" />-->
+
+
+
+    <!--<meta-data-->
+        <!--android:name="com.google.android.gms.version"-->
+        <!--android:value="@integer/google_play_services_version"/>-->
+
+</manifest>

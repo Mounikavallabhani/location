@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0061a6</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="block">#ca020202</color>
+    <color name="blockone">#e42d2c2c</color>
+    <color name="quantity">#fd9c9595</color>
+    <color name="monetcolor">#f91c478c</color>
+    <color name="ligihtcolor">#f1efef</color>
+</resources>

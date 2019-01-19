@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#fff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+        android:background="#009DFC">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user64"/>
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+
+                android:fontFamily="@font/six"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="narasimha"/>
+            <TextView
+                android:textSize="20dp"
+                android:fontFamily="@font/six"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234567890"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/orderhistory"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="0.8"
+                android:drawablePadding="10dp"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/list32"
+                android:textSize="18dp"
+                android:fontFamily="@font/six"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Order History"/>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_chevron_right_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/ligihtcolor"/>
+        <LinearLayout
+            android:id="@+id/settings"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="0.8"
+                android:drawablePadding="10dp"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/settings"
+                android:textSize="18dp"
+
+                android:fontFamily="@font/six"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Settings"/>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_chevron_right_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/ligihtcolor"/>
+        <LinearLayout
+            android:id="@+id/invitefriends"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="0.8"
+                android:drawablePadding="10dp"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/invitefriends"
+                android:textSize="18dp"
+
+                android:fontFamily="@font/six"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Invite Friends"/>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_chevron_right_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/ligihtcolor"/>
+        <LinearLayout
+            android:id="@+id/support"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="0.8"
+                android:drawablePadding="10dp"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/support"
+                android:textSize="18dp"
+                android:fontFamily="@font/six"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Support"/>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_chevron_right_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/ligihtcolor"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
